@@ -1,0 +1,54 @@
+<div class="wrapper">
+    <form class="form-send-data" method="POST" action="" name="checkoutForm">
+        <h1 class="form-send-data__title">Регистрация</h1>
+        <ul class="form-send-data__list">
+            <li class="form-send-data__item">
+                <input class="form-send-data__input" type="text" id="fullNameStudent" name="fullNameStudent"
+                    minlength="6" maxlength="30" placeholder="ФИО ученика">
+            </li>
+            <li class="form-send-data__item">
+                <input class="form-send-data__input" type="email" id="emailStudent" name="emailStudent" minlength="10"
+                    maxlength="25" placeholder="Email ученика">
+            </li>
+            <li class="form-send-data__item">
+                <div class="form-floating">
+                    <select class="form-select" id="floatingSelectClassStudent" name="classStudent"
+                        aria-label="Floating label select example">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                    </select>
+                    <label for="floatingSelect">Выбирите класс</label>
+                </div>
+            </li>
+            <li class="form-send-data__item">
+                <input class="form-send-data__input" type="text" id="fullNameParent" name="fullNameParent" minlength="6"
+                    maxlength="30" placeholder="ФИО родителя">
+            </li>
+            <li class="form-send-data__item">
+                <input class="form-send-data__input" type="email" id="emailParent" name="emailParent" minlength="10"
+                    maxlength="25" placeholder="Email родителя">
+            </li>
+            <li class="form-send-data__item">
+                <input class="form-send-data__input" type="text" minlength="10" id="phoneParent" name="phoneParent"
+                    placeholder="Телефон родителя">
+            </li>
+        </ul>
+        <button class="form-send-data__button-register">Зарегистрироваться</button>
+        <div class="form-send-data__message-data-sent">
+            <h3 class="form-send-data__message-data-sent-title">
+                Спасибо, Ваши данные успешно отправлены 😀
+            </h3>
+            <img class="form-send-data__message-data-sent-close" src="https://lowcost.fix.travel/img/close-white.png"
+                alt="Закрыть">
+        </div>
+    </form>
+</div>
